@@ -1,87 +1,31 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #870581}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #97007e}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #000000; min-height: 16.0px}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #000000}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #1400c4}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #885d30}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; color: #b50013}
-    span.s1 {color: #97007e}
-    span.s2 {color: #6f5a1e}
-    span.s3 {color: #b50013}
-    span.s4 {color: #000000}
-    span.s5 {color: #1400c4}
-  </style>
+<meta charset="UTF-8">
+<title>謎解き</title>
 </head>
+
 <body>
-<p class="p1">&lt;!DOCTYPE <span class="s1">html</span>&gt;</p>
-<p class="p2">&lt;html <span class="s2">lang</span>=<span class="s3">"ja"</span>&gt;</p>
-<p class="p2">&lt;head&gt;</p>
-<p class="p2">&lt;meta <span class="s2">charset</span>=<span class="s3">"UTF-8"</span>&gt;</p>
-<p class="p2">&lt;title&gt;<span class="s4">謎解きゲーム</span>&lt;/title&gt;</p>
-<p class="p3"><br></p>
-<p class="p2">&lt;style&gt;</p>
-<p class="p2">body<span class="s4">{</span></p>
-<p class="p4"><span class="Apple-converted-space">    </span><span class="s1">font-family</span>: sans-serif;</p>
-<p class="p4"><span class="Apple-converted-space">    </span><span class="s1">text-align</span>:center;</p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>margin-top<span class="s4">:</span><span class="s5">100px</span><span class="s4">;</span></p>
-<p class="p4">}</p>
-<p class="p3"><br></p>
-<p class="p2">input<span class="s4">{</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>padding<span class="s4">:</span><span class="s5">10px</span><span class="s4">;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>font-size<span class="s4">:</span><span class="s5">16px</span><span class="s4">;</span></p>
-<p class="p4">}</p>
-<p class="p3"><br></p>
-<p class="p2">button<span class="s4">{</span></p>
-<p class="p5"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">padding</span><span class="s4">:</span>10px<span class="s4"> </span>20px<span class="s4">;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>font-size<span class="s4">:</span><span class="s5">16px</span><span class="s4">;</span></p>
-<p class="p4">}</p>
-<p class="p3"><br></p>
-<p class="p6">#result<span class="s4">{</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>margin-top<span class="s4">:</span><span class="s5">20px</span><span class="s4">;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span>font-weight<span class="s4">:bold;</span></p>
-<p class="p4">}</p>
-<p class="p2">&lt;/style&gt;</p>
-<p class="p3"><br></p>
-<p class="p2">&lt;script&gt;</p>
-<p class="p4"><span class="s1">function</span> checkAnswer(){</p>
-<p class="p4"><span class="Apple-converted-space">    </span><span class="s1">let</span> answer = document.getElementById(<span class="s3">"answer"</span>).value;</p>
-<p class="p3"><br></p>
-<p class="p4"><span class="Apple-converted-space">    </span><span class="s1">if</span>(answer === <span class="s3">"りんご"</span>){</p>
-<p class="p4"><span class="Apple-converted-space">        </span>document.getElementById(<span class="s3">"result"</span>).innerHTML = <span class="s3">"正解！"</span>;</p>
-<p class="p4"><span class="Apple-converted-space">    </span>}<span class="s1">else</span>{</p>
-<p class="p4"><span class="Apple-converted-space">        </span>document.getElementById(<span class="s3">"result"</span>).innerHTML = <span class="s3">"違います"</span>;</p>
-<p class="p4"><span class="Apple-converted-space">    </span>}</p>
-<p class="p4">}</p>
-<p class="p2">&lt;/script&gt;</p>
-<p class="p3"><br></p>
-<p class="p2">&lt;/head&gt;</p>
-<p class="p3"><br></p>
-<p class="p2">&lt;body&gt;</p>
-<p class="p3"><br></p>
-<p class="p2">&lt;h1&gt;<span class="s4">謎解き</span>&lt;/h1&gt;</p>
-<p class="p3"><br></p>
-<p class="p2">&lt;p&gt;</p>
-<p class="p4">赤くて丸くて、木になる果物はなに？</p>
-<p class="p2">&lt;/p&gt;</p>
-<p class="p3"><br></p>
-<p class="p7"><span class="s1">&lt;input </span><span class="s2">id</span><span class="s1">=</span>"answer"<span class="s1"> </span><span class="s2">type</span><span class="s1">=</span>"text"<span class="s1"> </span><span class="s2">placeholder</span><span class="s1">=</span>"答えを入力"<span class="s1">&gt;</span></p>
-<p class="p3"><br></p>
-<p class="p2">&lt;br&gt;&lt;br&gt;</p>
-<p class="p3"><br></p>
-<p class="p2">&lt;button <span class="s2">onclick</span>=<span class="s3">"checkAnswer()"</span>&gt;<span class="s4">答える</span>&lt;/button&gt;</p>
-<p class="p3"><br></p>
-<p class="p2">&lt;div <span class="s2">id</span>=<span class="s3">"result"</span>&gt;&lt;/div&gt;</p>
-<p class="p3"><br></p>
-<p class="p2">&lt;/body&gt;</p>
-<p class="p2">&lt;/html&gt;</p>
+
+<h1>謎解き問題</h1>
+<p>日本で一番高い山は？</p>
+
+<input id="answer">
+<button onclick="check()">回答</button>
+
+<p id="result"></p>
+
+<script>
+function check(){
+let ans = document.getElementById("answer").value;
+
+if(ans === "富士山"){
+document.getElementById("result").innerText = "正解！";
+}else{
+document.getElementById("result").innerText = "違います";
+}
+}
+</script>
+
 </body>
 </html>
